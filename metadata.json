@@ -1,0 +1,6 @@
+{
+  "name": "Introduce KhoaTruong",
+  "description": "Xin chào tôi là Khoa Trương và đây là trang web giới thiệu về tôi",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
