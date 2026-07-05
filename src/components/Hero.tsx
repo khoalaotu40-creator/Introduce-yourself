@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Hero() {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-12">
       {/* Background Image with Overlay */}
@@ -9,13 +12,6 @@ export default function Hero() {
         style={{ backgroundImage: 'url("https://raw.githubusercontent.com/khoalaotu40-creator/Introduce-yourself/refs/heads/main/z8009289828789_696710bc6d6050a7ecedad2c633e328d.jpg")' }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
-      </div>
-
-      {/* Header / Logo */}
-      <div className="absolute top-0 left-0 w-full p-8 z-20">
-        <div className="max-w-7xl mx-auto">
-          <span className="text-white font-serif italic text-xl tracking-wide">KhoaTruong</span>
-        </div>
       </div>
 
       {/* Content */}
@@ -36,7 +32,10 @@ export default function Hero() {
             >
               Giới thiệu 
             </button>
-            <button className="bg-brand hover:bg-brand-hover text-black font-semibold text-sm tracking-widest uppercase px-8 py-4 transition-colors">
+            <button 
+              onClick={() => navigate('/versions')}
+              className="bg-brand hover:bg-brand-hover text-black font-semibold text-sm tracking-widest uppercase px-8 py-4 transition-colors"
+            >
               Dịch vụ 
             </button>
           </div>
