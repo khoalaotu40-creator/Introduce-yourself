@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("z8009289828789_696710bc6d6050a7ecedad2c633e328d.jpg")' }}
+        style={{ backgroundImage: 'url("https://raw.githubusercontent.com/khoalaotu40-creator/Introduce-yourself/refs/heads/main/z8009289828789_696710bc6d6050a7ecedad2c633e328d.jpg")' }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
